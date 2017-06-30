@@ -19,6 +19,7 @@
     "url": "https://github.com/qiushangzhe/tlow.git"
   },
   "dependencies": {
+    "gulp": "^3.9.1",
     "require-dir": "^0.3.2"
   }
 }
