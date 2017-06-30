@@ -1,1 +1,9 @@
 /node_modules
+/bower_components
+npm-debug.log
+.idea
+.sass-cache
+.tmp
+.DS_Store
+.gulp
+.vscode
