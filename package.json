@@ -1,6 +1,6 @@
 {
     "name": "tlow",
-    "Version": "0.0.1.20170630_base",
+    "Version": "1.0.0",
     "Description": "web develop tools",
     "Keywords": "tlow",
     "Homepage": "https://github.com/qiushangzhe/tlow",
@@ -16,6 +16,6 @@
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git@github.com:qiushangzhe/tlow.git"
+        "url": "git+https://github.com/qiusz/tlow.git"
     }
 }
