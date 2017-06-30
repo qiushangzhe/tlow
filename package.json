@@ -1,0 +1,21 @@
+{
+    "name": "tlow",
+    "Version": "0.0.1.20170630_base",
+    "Description": "web develop tools",
+    "Keywords": "tlow",
+    "Homepage": "https://github.com/qiushangzhe/tlow",
+    "Bugs": {
+        "url": "http://github.com/qiushangzhe/tlow/issues",
+        "email": "470542573@qq.com"
+    },
+    "license": "ISC",
+    "Author": {
+        "name": "qiusz",
+        "email": "470542573@qq.com"
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:qiushangzhe/tlow.git"
+    }
+}
