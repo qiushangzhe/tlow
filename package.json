@@ -1,15 +1,15 @@
 {
   "name": "tlow",
-  "Version": "1.0.0",
-  "Description": "web develop tools",
-  "Keywords": "tlow",
-  "Homepage": "https://github.com/qiushangzhe/tlow#readme",
-  "Bugs": {
+  "version": "1.0.0",
+  "description": "web develop tools",
+  "keywords": "tlow",
+  "homepage": "https://github.com/qiushangzhe/tlow#readme",
+  "bugs": {
     "url": "http://github.com/qiushangzhe/tlow/issues",
     "email": "470542573@qq.com"
   },
   "license": "ISC",
-  "Author": {
+  "author": {
     "name": "qiusz",
     "email": "470542573@qq.com"
   },
