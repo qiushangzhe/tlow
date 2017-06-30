@@ -16,6 +16,6 @@
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/qiusz/tlow.git"
+        "url": "https://github.com/qiushangzhe/tlow.git"
     }
 }
