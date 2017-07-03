@@ -1,0 +1,143 @@
+@import "common/define";
+@import "common/reset";
+
+$coloryellow:#ffe14f;
+$colorblue:#3abee9;
+$colorgray:#f0f0f0;
+
+body{
+	background-color:$colorgray;
+}
+
+.w1000{
+	width:1000px;
+	@extend %ma;
+	@extend %clearfix;
+}
+
+.m_head{
+	@extend %pf;
+	z-index:20;
+	width:100%;
+	height:67px;
+	line-height:67px;
+	border-top:3px solid $coloryellow;
+	-moz-box-shadow: 0px 2px 2px #e0e0e0;
+	-webkit-box-shadow: 0px 2px 2px #e0e0e0;
+	box-shadow: 0px 2px 2px #e0e0e0;
+	background-color:#fff;
+	font-size:0;
+	.ico{
+		@extend %fl;
+		@extend %dib;
+		@extend %tnone;
+		width:80px;
+		height:40px;
+		margin-top:10px;
+		padding:0;
+		margin-right:30px;
+		@extend %atrans;
+		background:url(../images/h_logo.png) no-repeat center top;
+		&:hover{
+			background-color:#fff;
+		}
+	}
+
+	.download{
+		@extend %fr;
+		color:#666;
+		height:16px;
+		line-height: 16px;
+		@extend %oh;
+		font-size:14px;
+		margin-top:19px;
+		padding-left:20px;
+		padding-right:0;
+		@extend %fico;
+		&:hover{
+			background-color:#fff;
+		}
+	}
+}
+.nav_box{
+	@extend %fl;
+	a{
+		@extend %fl;
+		@extend %dib;
+		@extend %f16;
+		@extend %c3;
+		padding:0 40px;
+		height:67px;
+		@extend %atrans;
+		&.cur {
+			background-color:$coloryellow;
+			&:hover{
+				color:#666;
+				background-color:#fde983;
+
+			}
+		}
+		&:hover{
+				color:#666;
+				background-color:#fde983;
+				// @extend %atrans;
+		}
+
+	}
+}
+
+.loginwap{
+	@extend %fr;
+	a{
+		@extend %dib;
+		height:57px;
+		line-height: 67px;
+		font-size:16px;
+		color:#333;
+		@extend %cp;
+		 &:hover{
+		 	color:#ffe14f;
+		 }
+	}
+}
+.top_login{
+	margin-right:42px;
+	&:hover{
+		color:#ffe14f;
+	}
+}
+// .top_join{
+// 	&:hover{
+// 		color:#ffe14f;
+// 	}
+// }
+
+
+
+
+.loginwap_after{
+	@extend %fr;
+	// width:500px;
+	img{
+		margin:12px 12px 0 0;
+		width:44px;
+		height:44px;
+		border-radius:50%;
+	}
+	i{
+		@extend %dib;
+		font-size: 16px;
+		color:#333;
+		width:90px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	a{
+		@extend %fr;
+		@extend %dib;
+		margin-left:40px;
+		font-size: 16px;
+		color:#333;
+	}
+}

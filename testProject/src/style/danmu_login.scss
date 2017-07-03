@@ -1,0 +1,545 @@
+@charset "utf-8";
+@import "reset";
+@import "define";
+
+
+%ico{
+	background:url(../images/icon.png) no-repeat;
+}
+.wy_l_close{
+	@extend %pa;
+	right:-30px;
+	top:10px;
+	width:18px;
+	height:18px;
+	@extend %ico;
+	background-position:0 -156px;
+	@extend %cp;
+}
+
+
+.wy_loginbackground{
+	@extend %dn;
+	background-color:#000;
+	opacity:.5;
+	left: 0;
+	top: 0;
+	bottom:0;
+	right:0;
+	z-index: 998;
+	position: fixed;
+}
+
+.wy_loginwap{
+	@extend %dn;
+}
+
+
+
+
+.wy_loginwap,.wy_register{//js设置margin-top值
+	@extend %pf;
+	left:50%;
+	top:30%;
+	margin-left:-175px;
+	z-index:999;
+	width:350px;
+	background-color:#fff;
+	&.pop{
+		-webkit-animation:bounceIn 1s .2s cubic-bezier(0.97, 0.05, 0.86, 1.28) both;
+		-moz-animation:bounceIn 1s .2s cubic-bezier(0.97, 0.05, 0.86, 1.28) both;
+	}
+}
+
+
+
+
+
+.w_l_topbar{
+	height:80px;
+	background-color:#ffe04e;
+	b{
+		@extend %fl;
+		margin:28px 0 0 23px;
+		color:#333;
+		font-size:24px;
+		@extend %fwb;
+	}
+	a{
+		@extend %fr;
+		margin:35px 23px 0 0;
+		color:#333;
+		font-size:14px;
+		@extend %cp;
+	}
+}
+
+.w_l_change{
+	margin:16px 0;
+	@extend %tac;
+	a{
+		padding:0 26px;
+		font-size:14px;
+		color:#999;
+		@extend %cp;
+		&.cur{
+			color:#3abee9;
+		}
+	}
+}
+
+
+// .w_l_login_account_userinf{
+	
+// }
+
+.w_l_change_form{
+	form{
+		@extend %dn;
+		padding:0 25px;
+		width:300px;
+		&.cur{
+			display:block;
+		}
+	}
+}
+
+
+@-webkit-keyframes fadeInUp{
+0%{opacity:0;
+-webkit-transform:translateY(20px)}
+100%{opacity:1;
+-webkit-transform:translateY(0)}
+}
+@-moz-keyframes fadeInUp{
+0%{opacity:0;
+-moz-transform:translateY(20px)}
+100%{opacity:1;
+-moz-transform:translateY(0)}
+}
+
+
+
+
+
+
+
+
+
+
+.w_r_enrollform{
+	display:block;
+	padding:0 25px;
+	width:300px;
+}
+
+
+
+.w_l_login_phone_userinf{
+	@extend %dn;
+	padding:0 25px;
+	width:300px;
+	&.cur{
+		display:block;
+	}
+}
+
+
+
+.w_l_phonenumber,.w_l_l_p_u_phonenumber,.w_r_e_phonenumber{
+	width:300px;
+	// padding-left:5px;
+	height:49px;
+	line-height: 49px;
+	color:#ccc;
+	border:0;
+	border-bottom:#e0e0e0 1px solid;
+	&.onfocus{
+		width:295px;
+		padding-left:5px;
+		color:#333;
+		border-bottom:#ffe04e 1px solid;
+	}
+	&.onwrong{
+		width:295px;
+		padding-left:5px;
+		color:#333;
+		background-color:#fff2f3;
+		border-bottom:#f99 1px solid;
+	}
+}
+
+
+.w_l_Graphic_input{
+	&.onwrong{
+		// width:295px;
+		// padding-left:5px;
+		color:#333;
+		background-color:#fff2f3;
+		border-bottom:#f99 1px solid;
+	}
+}
+
+
+
+
+
+#w_r_e_phonenumber{
+	margin-top:15px;
+}
+
+
+.w_r_e_p_Graphic,.w_l_l_p_u_Graphic{
+	input{
+		width:160px;
+		height:49px;
+		line-height: 49px;
+		border:0;
+		color:#ccc;
+		border-bottom:#e0e0e0 1px solid;
+	}
+	span{
+		@extend %fr;
+		@extend %dib;
+		margin-top:10px;
+		width:120px;
+		height:40px;
+		line-height: 40px;
+		color:#333;
+		@extend %tac;
+		background-color:#ffe04e;
+		@extend %cp;
+	}
+
+}
+
+.w_l_l_p_u_input{
+	width:160px;
+	height:49px;
+	line-height: 49px;
+	border:0;
+	color:#ccc;
+	border-bottom:#e0e0e0 1px solid;
+}
+.fps2_getcode{
+	@extend %cp
+}
+
+
+
+.w_l_password,.w_r_e_password{
+	width:250px;
+	height:49px;
+	line-height: 49px;
+	color:#ccc;
+	border:0;
+	
+
+
+	// border-bottom:#e0e0e0 1px solid;
+}
+
+.w_l_password_input{
+	&.onfocus{
+		.w_l_password{
+			color:#333;
+		}
+		
+	}
+}
+
+
+
+.w_r_e_password{
+// 	&.cur{
+// 		color:#333;
+// 		border-bottom:#ffe04e 1px solid;
+// 	}
+// 	&.onwrong{
+// 		color:#333;
+// 		background-color:#fff2f3;
+// 		border-bottom:#f99 1px solid;
+// 	}
+}
+
+
+
+.w_r_e_password{
+	// color:#333;
+}
+
+
+.w_r_e_password_input{
+	.w_r_e_password{
+		background-color:#fff;	
+		color:#ccc;
+	}
+	&.onfocus{
+		.w_r_e_password{
+			background-color:#fff;	
+			color:#333;
+		}
+	}
+} 
+
+
+
+.w_l_password_input,.w_r_e_password_input{
+	width:100%;
+	height:50px;
+	border-bottom:#e0e0e0 1px solid;
+	&.onfocus{
+	
+		// width:295px;
+		// padding-left:5px;
+		.w_r_e_pass{
+			background-color:#fff;
+		}
+	
+		color:#333;
+		border-bottom:#ffe04e 1px solid;
+		// input{
+		// 	color:#333;
+		// 	border-bottom:#ffe04e 1px solid;
+		// }
+	}
+	&.onwrong{
+		// width:295px;
+		// padding-left:5px;
+		color:#333;
+		background-color:#fff2f3;
+		border-bottom:#f99 1px solid;
+		input{
+			color:#333;
+			background-color:#fff2f3;
+		}
+	}
+}
+
+
+.w_r_e_password_input{
+	border:0;
+	border-bottom:#e0e0e0 1px solid;
+	&.onwrong{
+		color:#333;
+		background-color:#fff2f3;
+		border-bottom:#f99 1px solid;
+	}
+	&.onfocus{
+		color:#333;
+		background-color:#fff2f3;
+		border-bottom:#ffe04e 1px solid;
+	}
+}
+
+.w_l_Graphic{
+	@extend %dn;
+	height:50px;
+	width:100%;
+	input{
+		height:50px;
+		line-height: 50px;
+		width:206px;
+		color:#ccc;
+		border:0;
+		border-bottom:#e0e0e0 1px solid;
+	}
+	img{
+		// margin-left:5px;
+		margin-top:11px;
+		width:90px;
+		height:40px;
+	}
+	&.onfocus{
+		// width:295px;
+		// padding-left:5px;
+		// color:#333;
+		input{
+			border-bottom:#ffe04e 1px solid;
+			color:#333;
+		}
+	}
+	&.onwrong{
+		// width:295px;
+		// padding-left:5px;
+		color:#333;
+		// background-color:#fff2f3;
+		input{
+			color:#333;
+			border-bottom:#f99 1px solid;
+			background-color:#fff2f3;
+		}
+	}
+}
+.w_l_l_p_u_input{
+	&.onfocus{
+		border-bottom:#ffe04e 1px solid;
+		color:#333;
+	}
+	&.onwrong{
+		color:#333;
+		border-bottom:#f99 1px solid;
+		background-color:#fff2f3;
+	}
+}
+
+.w_r_e_p_input{
+	&.onfocus{
+		border-bottom:#ffe04e 1px solid;
+		color:#333;
+	}
+	&.onwrong{
+		color:#333;
+		border-bottom:#f99 1px solid;
+		background-color:#fff2f3;
+	}
+}
+
+
+.w_l_pass,.w_r_e_pass{
+	@extend %fr;
+	// border-bottom:#e0e0e0 1px solid;
+	@extend %cp;
+	span{
+		@extend %ico;
+		@extend %dib;
+		width:16px;
+		height:12px;
+		margin:19px 17px 15px;
+		background-position:0 -12px;
+		
+	}
+	&.cur{
+		span{
+			@extend %ico;
+			@extend %dib;
+			width:16px;
+			height:12px;
+			margin:19px 17px 15px;
+			background-position:0 0;
+			
+		}
+	}
+}
+.w_l_message,.w_l_l_p_u_message,{
+	margin-top:1px;
+	height: 38px;
+	width:100%;
+}
+
+.w_l_m_wrong,.w_l_l_p_u_wrong,.w_r_e_m_wrong,.w_r_e_message{
+	@extend %dib;
+	margin-top:11px;
+	padding-left:19px;
+	color:#ff2424;
+	@extend %ico;
+	background-position:0 -130px;
+	&.cur{ 
+		@extend %dn;
+	}
+}
+
+
+
+.w_r_e_message{
+	@extend %db;
+	width:100%;
+	height:20px;
+	// margin-bottom:11px;
+	&.cur{
+		@extend %dn;
+	}
+}
+.w_r_e_message_box{
+	margin-top:11px;
+	height:30px;
+}
+
+
+.w_l_m_forgetpassword,.w_l_l_p_u_forgetpassword{
+	@extend %fr;
+	margin-top:12px;
+	@extend %dib;
+	color:#3abee9;
+	@extend %cp;
+}
+.w_l_login,.w_l_l_p_u_login,.w_r_e_login{
+	@extend %db;
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	color:#333;
+	@extend %tac;
+	background-color:#ffe04e;
+	@extend %cp;
+	&:hover{
+		@extend %atrans;
+		background-color:#fce983;
+	}
+}
+.w_l_otherlonginway,.w_r_e_otherlonginway{
+	margin:20px 0 30px 0;
+	line-height:26px;
+	font-size:14px;
+	color:#666;
+	@extend %tac;
+	a{
+		@extend %cp;
+	}
+}
+
+.w_l_o_weixinlogin,.w_r_e_weixinlogin{
+	@extend %dib;
+	margin:-5px 10px;
+	width:20px;
+	height:20px;
+	@extend %ico;
+	background-position:0 -28px;
+}
+
+.w_l_o_weibologin,.w_r_e_weibologin{
+	@extend %dib;
+	margin:-5px 10px;
+	// @extend %dn;
+	// margin:0 10px;
+	width:20px;
+	height:20px;
+	@extend %ico;
+	background-position:0 -52px;
+}
+.w_l_o_qqlogin,.w_r_e_qqlogin{
+	@extend %dib;
+	// @extend %dn;
+	margin:-5px 10px;
+	// margin:0 10px;
+	width:20px;
+	height:20px;
+	@extend %ico;
+	background-position:0 -82px;
+}
+
+
+.wy_register{
+	@extend %dn;
+}
+
+#w_l_Graphic_img{
+	@extend %cp
+}
+
+
+
+
+input:-webkit-autofill {
+-webkit-box-shadow: 0 0 0px 1000px white inset;
+// border: 1px solid #CCC!important;
+}
+
+
+.logout{
+	@extend %cp;
+}
+
+// #w_l_o_weixinlogin_l,#w_l_o_weixinlogin,#w_r_e_weixinlogin{
+// 	@extend %dn;
+// }

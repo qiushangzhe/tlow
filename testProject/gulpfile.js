@@ -1,1 +1,1 @@
-var tlow = require('../main.js');
+var tlow = require('../index.js');

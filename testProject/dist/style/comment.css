@@ -1,3 +1,65 @@
+.m_head .ico, .m_head .download {
+  overflow: hidden;
+}
+
+.m_head .ico, .nav_box a, .loginwap a, .loginwap_after i, .loginwap_after a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.m_head .ico, .nav_box, .nav_box a {
+  float: left;
+}
+
+.m_head .download, .loginwap, .loginwap_after, .loginwap_after a {
+  float: right;
+}
+
+.m_head {
+  position: fixed;
+}
+
+.w1000 {
+  margin: 0 auto;
+}
+
+.w1000 {
+  zoom: 1;
+}
+
+.w1000:after {
+  content: '\200B';
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.loginwap a {
+  cursor: pointer;
+}
+
+.m_head .ico {
+  text-indent: -9999px;
+}
+
+.nav_box a {
+  color: #333;
+}
+
+.nav_box a {
+  font-size: 16px;
+}
+
+.m_head .ico, .nav_box a {
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+}
+
+.m_head .download {
+  background: url(../images/ico.png) no-repeat;
+}
+
 /*------------------
 Created:2016/07/14
 author:chenzhigang
@@ -182,4 +244,99 @@ textarea {
   html {
     font-size: 200px;
   }
+}
+body {
+  background-color: #f0f0f0;
+}
+
+.w1000 {
+  width: 1000px;
+}
+
+.m_head {
+  z-index: 20;
+  width: 100%;
+  height: 67px;
+  line-height: 67px;
+  border-top: 3px solid #ffe14f;
+  -webkit-box-shadow: 0px 2px 2px #e0e0e0;
+  box-shadow: 0px 2px 2px #e0e0e0;
+  background-color: #fff;
+  font-size: 0;
+}
+.m_head .ico {
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
+  padding: 0;
+  margin-right: 30px;
+  background: url(../images/h_logo.png) no-repeat center top;
+}
+.m_head .ico:hover {
+  background-color: #fff;
+}
+.m_head .download {
+  color: #666;
+  height: 16px;
+  line-height: 16px;
+  font-size: 14px;
+  margin-top: 19px;
+  padding-left: 20px;
+  padding-right: 0;
+}
+.m_head .download:hover {
+  background-color: #fff;
+}
+
+.nav_box a {
+  padding: 0 40px;
+  height: 67px;
+}
+.nav_box a.cur {
+  background-color: #ffe14f;
+}
+.nav_box a.cur:hover {
+  color: #666;
+  background-color: #fde983;
+}
+.nav_box a:hover {
+  color: #666;
+  background-color: #fde983;
+}
+
+.loginwap a {
+  height: 57px;
+  line-height: 67px;
+  font-size: 16px;
+  color: #333;
+}
+.loginwap a:hover {
+  color: #ffe14f;
+}
+
+.top_login {
+  margin-right: 42px;
+}
+.top_login:hover {
+  color: #ffe14f;
+}
+
+.loginwap_after img {
+  margin: 12px 12px 0 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.loginwap_after i {
+  font-size: 16px;
+  color: #333;
+  width: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.loginwap_after a {
+  margin-left: 40px;
+  font-size: 16px;
+  color: #333;
 }
