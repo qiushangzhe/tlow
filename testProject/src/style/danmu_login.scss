@@ -1,6 +1,6 @@
 @charset "utf-8";
-@import "reset";
-@import "define";
+@import "common/reset";
+@import "common/define";
 
 
 %ico{
@@ -90,7 +90,7 @@
 
 
 // .w_l_login_account_userinf{
-	
+
 // }
 
 .w_l_change_form{
@@ -233,7 +233,7 @@
 	line-height: 49px;
 	color:#ccc;
 	border:0;
-	
+
 
 
 	// border-bottom:#e0e0e0 1px solid;
@@ -244,7 +244,7 @@
 		.w_l_password{
 			color:#333;
 		}
-		
+
 	}
 }
 
@@ -271,16 +271,16 @@
 
 .w_r_e_password_input{
 	.w_r_e_password{
-		background-color:#fff;	
+		background-color:#fff;
 		color:#ccc;
 	}
 	&.onfocus{
 		.w_r_e_password{
-			background-color:#fff;	
+			background-color:#fff;
 			color:#333;
 		}
 	}
-} 
+}
 
 
 
@@ -289,13 +289,13 @@
 	height:50px;
 	border-bottom:#e0e0e0 1px solid;
 	&.onfocus{
-	
+
 		// width:295px;
 		// padding-left:5px;
 		.w_r_e_pass{
 			background-color:#fff;
 		}
-	
+
 		color:#333;
 		border-bottom:#ffe04e 1px solid;
 		// input{
@@ -407,7 +407,7 @@
 		height:12px;
 		margin:19px 17px 15px;
 		background-position:0 -12px;
-		
+
 	}
 	&.cur{
 		span{
@@ -417,7 +417,7 @@
 			height:12px;
 			margin:19px 17px 15px;
 			background-position:0 0;
-			
+
 		}
 	}
 }
@@ -434,7 +434,7 @@
 	color:#ff2424;
 	@extend %ico;
 	background-position:0 -130px;
-	&.cur{ 
+	&.cur{
 		@extend %dn;
 	}
 }
