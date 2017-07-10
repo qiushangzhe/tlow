@@ -1,5 +1,17 @@
 # 团子 深度定制 自动化工具流 “TLOW”
 
+## 安装使用说明
+
+#### step 1.
+``npm install https://github.com/qiushangzhe/tlow.git --save``
+
+#### step 2.
+执行gulp
+
+#### step 3.
+自动创建目录 开发环境 src文件夹
+
+看一下src下对应子文件夹 就知道干啥的了。
 
 ## 目前需要定制功能
 
