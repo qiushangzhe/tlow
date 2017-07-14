@@ -19,7 +19,6 @@
     "url": "https://github.com/qiushangzhe/tlow.git"
   },
   "dependencies": {
-    "ascii-banner": "0.0.2",
     "browser-sync": "^2.18.12",
     "colors": "^1.1.2",
     "gulp": "^3.9.1",

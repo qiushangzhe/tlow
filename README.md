@@ -35,3 +35,7 @@
 - 增加png和jpeg图片的无损压缩功能。
 - 补充图片文件的移动和监听
 - 增加javascript的sourcemap 仅在chrom下生效。
+
+## 1.0.4 更新
+
+- 增加版本显示
