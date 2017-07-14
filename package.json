@@ -1,6 +1,6 @@
 {
   "name": "tlow",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "web develop tools",
   "keywords": "tlow",
   "homepage": "https://github.com/qiushangzhe/tlow#readme",
@@ -28,6 +28,7 @@
     "gulp-notify": "^3.0.0",
     "gulp-ruby-sass": "^2.1.1",
     "gulp-sequence": "^0.4.6",
+    "gulp-smushit": "^1.2.0",
     "gulp-uglify": "^3.0.0",
     "require-dir": "^0.3.2",
     "shelljs": "^0.7.8"

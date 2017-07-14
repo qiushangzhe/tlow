@@ -20,7 +20,7 @@
 - js 压缩处理
 - 开发文件夹和产出文件夹分离
 
-## fix
+## 1.0.2 fix
 1.导出的css无法压缩
 2.js无法做到热更
 3.每次报错需要重新编译gulp
@@ -28,3 +28,10 @@
 启动方式分为两种：
 - gulp 是默认
 - gulp css-concat 是将所有scss编译后打包成一个main.css
+
+
+## 1.0.3更新
+
+- 增加png和jpeg图片的无损压缩功能。
+- 补充图片文件的移动和监听
+- 增加javascript的sourcemap 仅在chrom下生效。
